@@ -1,0 +1,34 @@
+.content-buttom-wrapper{
+    background: #F4F4F4;
+}
+.content-buttom-container{
+    max-width: 1348px;
+    padding: 60px 46px 30px 46px;
+    margin: auto;
+}
+.content-buttom-container hr{
+    color: #4A4A4A;
+}
+.content-buttom-container h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1a1b18;
+    font-weight: 400;
+}
+.content-buttom-container p{
+    margin-top: 20px;
+}
+.author-desc p span{
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: 700;
+}
+.author-desc p a{
+    text-decoration: none;
+    color: #0099FF;
+}
+.desc-date{
+    line-height: 20px;
+    color: #4a4a4a;
+}

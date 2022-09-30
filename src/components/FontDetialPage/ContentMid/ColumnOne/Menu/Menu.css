@@ -1,0 +1,74 @@
+.menu{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    /* background: green; */
+}
+.menu li{
+    background-color: #EEEEEE;
+    margin: 20px 10px 0 0;
+    border: 1px solid #eee;
+    border-radius: 4px 4px 0 0;
+    padding: 17px 30px 12px 30px;
+    width: 23%;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 18px;
+    line-height: 25px;
+    word-spacing: 6px;
+}
+.menu li:first-child{
+    padding: 11px 8px 12px 10px;
+    width: 8%;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.menu li:first-child a{
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.menu li:first-child a .s-2{
+    line-height: 24px;
+    font-size: 10px;
+}
+.menu-ribbon{
+    margin: 0px 10px 0 0!important;
+    border-top: 4px solid #0099FF!important;
+    background: white!important;
+    border-bottom: none!important;
+    position: relative;
+    /* background: rgb(155, 32, 155) !important; */
+}
+.menu-ribbon span{
+    background-color: #0099FF;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 8px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.menu-ribbon span::before{
+    content: "";
+    border-width: 1px 36px 8px 36px;
+    border-style: solid;
+    border-color: #0099FF #0099FF transparent #0099FF;
+    position: absolute;
+    top: 16px;
+    right: 0px;
+}
+.menu-ribbon a{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 400;
+}

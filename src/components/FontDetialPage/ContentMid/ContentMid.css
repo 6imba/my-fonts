@@ -1,0 +1,17 @@
+.content-mid-wrapper{
+    max-width: 1348px;
+    margin: auto;
+    padding: 0 46px;
+    /* background-color: aqua; */
+}
+.content-mid-wrapper > p{
+    line-height: 20px;
+    color: #4a4a4a;
+    padding: 30px 0 60px 0;
+}
+.content-mid-wrapper > div{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,57 @@
+.font-category{
+    background: #f4f4f4;
+    border: 1px solid #e2e2e2;
+}
+
+.font-category-wrapper{
+    max-width: 1348px;
+    min-width: 1348px;
+    margin: auto;
+    padding: 15px 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font-category-desc{
+    /* background-color: aqua; */
+    display: inline-flex;
+    flex-direction: column;
+}
+.title-text{
+    font-size: 24px;
+    line-height: 30px;
+}
+.font-category-nav{
+    /* background-color: rgb(64, 148, 148); */
+    /* min-height: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    flex-basis: 81.4%;
+}
+
+.font-category-nav li{
+    list-style: none;
+    margin: 0 7px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px 3px 3px;
+}
+.font-category-nav li a{
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    width: 156px;
+}
+
+@media only screen and (max-width: 1220px){
+    .font-category-wrapper{
+        flex-direction: column;
+    }
+    .font-category-desc{
+        margin-bottom: 10px;
+    }
+}

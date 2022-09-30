@@ -1,0 +1,17 @@
+.button-content-wrapper{
+    padding: 60px 46px 0 46px;
+    background-color: #F4F4F4;
+}
+.button-content-container{
+    max-width: 1348px;
+    min-width: 1348px;
+    /* padding: 0 46px; */
+    margin: auto;
+    /* background-color: #ffd5d5; */
+    display: flex;
+}
+.button-content1-wrapper, .button-content2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}

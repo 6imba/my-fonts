@@ -1,0 +1,33 @@
+.button-content2{
+    margin-left: 46px;
+    margin-bottom: 30px;
+    padding: 27px 20px 40px 20px;
+    position: relative;
+}
+.button-content2-pick{
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    width: 421px;
+    overflow: hidden;
+}
+.button-content2-pick .desc{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+.pick-last{
+    border: none;
+}
+.desc span a {
+    color: #00ACFF;
+    text-decoration: none;
+}
+.button-content2 .special-offers{
+    position: absolute;
+    top: -22px;
+    left: -20px;
+    line-height: 46px;
+}
+.button-content2-pick{
+    width: 480px;
+}

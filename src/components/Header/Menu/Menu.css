@@ -1,0 +1,15 @@
+.header-menu{
+    display: flex;
+    list-style: none;
+    padding: 30px 0;
+    justify-content: start;
+}
+.header-menu li{
+    padding: 0 15px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #666;
+}
+.header-menu li:hover{
+    color: #0099ff;
+}

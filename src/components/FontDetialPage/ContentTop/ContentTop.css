@@ -1,0 +1,46 @@
+.font-head{
+    max-width: 1348px;
+    min-width: 1348px;
+    margin: auto;
+    padding: 0 0 30px 0;
+}
+.font-head-menu{
+    margin: 30px 0;
+    padding: 0 46px;
+}
+.font-head-menu a{
+    text-decoration: none;
+    color: #555;
+    line-height: 20px;
+}
+.font-head-menu .font-name{
+    color: #aaa;
+}
+.intro{
+    /* background-color: rgb(224, 149, 50); */
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    padding: 0 46px;
+}
+.font-head-img{
+    width: 498px;
+    margin-left: -5px;
+}
+.intro-2{
+    text-align: right;
+}
+.intro-2 h2{
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #614A4A;
+}
+.intro-2 p{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+}
